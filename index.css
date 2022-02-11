@@ -1,3 +1,69 @@
-body{
-    background-color: #e9ecef;
+*{
+    margin: 10px;
+    padding: 0;
 }
+
+
+body{
+    background-color: #fff1e6;
+    font-family: 'Bitter', serif;
+}
+
+section > div > h1{
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+
+}
+header{
+    background-color: #ddbea9;
+    height: 150px;
+    padding-top:10px;
+}
+
+header > h1{
+    display: flex;
+    justify-content: center;
+}
+header > h2{
+    display:flex;
+    justify-content: center;
+}
+
+header > h3{
+    display: flex;
+    justify-content: center;
+}
+
+.img-two{
+    height: 60vh;
+    width: 50vh;
+}
+
+.img-three{
+    height: 60vh;
+    width: 50vh;
+}
+
+.pictures{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* .column-two{
+    display: flex;
+    justify-items: space-between;
+    box-sizing: border-box;
+    width:50%;
+} */
+
+/* .column-one{
+    width:35%;
+} */
